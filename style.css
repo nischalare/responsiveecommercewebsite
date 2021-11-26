@@ -1,0 +1,265 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.nav-link{
+    color:black;
+    font-weight: 600;
+
+}
+
+.navbar-brand{
+    color:black;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-80%);
+    left: -8%;
+}
+
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: black;
+}
+
+.carousel-caption p{
+    color:black;
+    font-weight: 600;
+}
+
+.btn0{
+    background-color: red;
+    height: 45px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+
+}
+
+.btn0:hover{
+    background-color: white;
+    color:red;
+    transition: 0.3s;
+
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.sub{
+    background-color: gray;
+}
+
+.sub input{
+    height: 51px;
+    width: 50%;
+    color: black;
+    outline: none;
+    padding: 10px;
+
+}
+
+.btn1{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color:yellow;
+    outline: none;
+    border: none;
+    margin-left:-2px;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s
+
+}
+
+.fas{
+    font-size: 32px;
+
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.collection span{
+    color: yellowgreen;
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+.collection input{
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 35%;
+    left: 30%;
+    opacity: 0;
+
+
+
+
+
+}
+
+.collection .card:hover input{
+    opacity: 1;
+    transition: 1s;
+
+    }
+
+.collection input:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+/* ------------------------------------------------------------------------------------------------- */
+.parallex{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./shopping-mall-1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+
+
+}
+
+.parallex h1{
+    font-size: 60px;
+    font-weight: 700;
+
+
+}
+
+.parallex p{
+    font-size:25px;
+
+
+}
+
+.btn2{
+    height: 40px;
+    width: 110px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: yellowgreen;
+    transition: 0.3s;
+}
+
+.btn3{
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: yellowgreen;
+    border-radius: 5px;
+}
+
+.btn3:hover{
+    background-color: gray;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+
+
+
+
+
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+.article a{
+    list-style: none;
+    color: black;
+    outline: none;
+
+
+
+}
+
+.article a:hover{
+    color:yellowgreen;
+    transition: 0.3s;
+
+}
+
+.article p{
+    font-size: 25px;
+
+}
+
+.article span{
+    color: yellowgreen;
+
+}
+
+.article small{
+    font-size: 15px;
+
+}
+/* --------------------------------------------------------------------- */
+
+.contact input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: grey;
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+
+
+
+
+}
+
+.btn4{
+    height: 45px;
+    width: 160%;
+    background-color: yellowgreen;
+    color: white;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    display: inline-block;
+    
+
+
+
+
+
+
+
+
+}
